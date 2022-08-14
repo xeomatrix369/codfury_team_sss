@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
+
+
+.barr{
+    height: 100vh;
+    width: 100vw;
+    padding: 10px 10px 10px 694px;
+}
+button{
+    width: 100vw;
+    height: 40px;
+    font-size: 25px;
+}
+
+button:hover{
+    cursor: pointer;
+    color: red;
+    font-size: larger;
+    font-weight: bolder;
+}
+.write{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    font-family: 'DynaPuff', cursive;
+}

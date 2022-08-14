@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
+
+.buya{
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    font-family: 'DynaPuff', cursive;
+    background-image: url("../white2.jpg");
+    background-size: cover;
+}
+.startups{
+    border: 4px solid #132624;
+    background-image: url(../ebike.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0px 208px;
+
+}
+.startups6{
+    
+    border: 4px solid #132624;
+    background-image: url(../connect.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0px 208px;
+}
+
+.startups5{
+    
+    border: 4px solid #132624;
+    background-image: url(../frying.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0px 208px;
+}
+
+.startups4{
+    border: 4px solid #132624;
+    background-image: url(../searchen1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0px 300px;
+}
+.heading{
+    display: block;
+}
+
+.shuru{
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.paragraph{
+    font-size: 19px;
+
+padding: 0px 108px;
+text-transform: capitalize;
+}
+
+.buyit{
+    width: 233px;
+
+margin: 0px 659px;
+height: 39px;
+font-size: 25px;
+
+}
+
+.buyit:hover{
+    cursor: pointer;
+    color: red;
+    font-weight: bolder;
+    background-color: #2874f0;
+}
+
+.features{
+    font-size: 43px;
+}
