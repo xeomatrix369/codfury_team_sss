@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact{
+    background-image:url("../white.jpg") ;
+    background-size: cover;
+    min-height: 100vh;
+}

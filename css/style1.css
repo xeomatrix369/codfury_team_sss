@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+.container{
+   
+    position: absolute;
+    top: 30%;
+    left: 40%;
+
+}
+.container h1{
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 43px;
+    padding: 13px;
+    
+}
+
+h1{
+  display: inline-block;
+  font-family: 'Leckerli One', cursive;
+}
+
+
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple;
+   display: flex;
+   margin: -18px 10px 23px 0px;
+  
+}
+
+.box input{
+    width: 75%;
+   border: none;
+   outline: none;
+   margin: 12px 0px;
+   font-size: 20px;
+   padding:5px 10px ;
+   background: none;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 0;
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    background: none;
+color: #101d1d;
+font-weight: bolder;
+}
+
+.btn:hover{
+    color: purple;
+    background: white;
+}
+
+.btn a{
+    text-decoration: none;
+}
+
+.box i{
+   
+    width: 40px;
+    padding: 22px 21px;
+    text-align: center;
+  }

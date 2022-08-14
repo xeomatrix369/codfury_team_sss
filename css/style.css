@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2874f0;
+    height: 42px;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 35px;
+   margin: -1px 14px 5px 0px;
+         width: 83px;
+
+}
+
+
+
+nav ul {
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
+
+    list-style-type: none;
+
+
+}
+
+nav ul li {
+    display: flex;
+    padding: 0px 23px 7px 14px;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 18px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.searchbar {
+    width: 1500px;
+    display: flex;
+}
+
+
+
+.searchbar input {
+    width: 495px;
+    height: 31px;
+    margin: 3px 0px 10px 10px;
+}
+
+.ispedaba {
+    height: 29px;
+    margin: 5px -56px 0px 13px;
+    width: 58px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.ispedaba a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.ispedaba:hover {
+    font-weight: bolder;
+    font-size: 15px;
+    color: crimson;
+}
+
+.login {
+    margin: 5px 0px 11px 108px;
+    display: flex;
+    width: 180px;
+    height: 29px;
+    align-items: center;
+    padding: 1px 0px 3px 73px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.login a{
+  text-decoration: none;
+  color: black;
+}
+
+.login:hover {
+    font-weight: bolder;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.quote {
+    color: white;
+    font-style: italic;
+    margin: 4px 0px 7px 34px;
+    font-size: 26px;
+}
+
+.quote:hover {
+    color: red;
+    font-weight: bolder;
+}
+
+.container {
+    min-height: calc(100vh - 42px - 42px);
+      
+}
+
+.progress{
+    width: 100vw;
+  height: 4px;
+    background-color: red;
+    animation: progressbar;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes progressbar {
+    from{
+        width: 0vw;
+    }
+     to{
+        width: 100vw;
+     }
+    
+}
+
+.heading1{
+    background-image: url("../farmer.jpg");
+   
+    /* background-attachment: scroll; */
+
+    background-size: cover;
+   
+}
+
+.ahead{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    font-family: 'Prompt', sans-serif;
+}
+
+.with{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    font-family: 'Prompt', sans-serif;
+}
+
+.up{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    font-family: 'DynaPuff', cursive;
+    font-size: 64px;
+}
+
+
+.idea{
+    display: flex;
+    justify-content: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.investors{
+    display: flex;
+    justify-content: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.startit{
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+}
+
+.fundyour{
+       background-image: url(../bulb1.png);
+
+}
+.whowill{
+    display: flex;
+    justify-content: center;
+    font-size: 43px;
+text-transform: capitalize;
+}
+
+.weare{
+    display: flex;
+    justify-content: center;
+    font-size: 43px;
+text-transform: capitalize;
+}
+
+.quickfix{
+    font-weight: bolder;
+    font-size: 23px;
+    font-family: 'Kalam', cursive;
+    background-image: url(../white.jpg);
+    background-size: cover;
+
+}
+
+.cii{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    text-transform: capitalize;
+    font-family: 'Rancho', cursive;
+}
+.catalyst{
+  
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.goahead{
+    font-size: 25px;
+    font-family: 'Kavivanar', cursive;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+}
+.actasamediator{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.inv{ font-size: 30px;
+    text-transform: capitalize;}
+
+    .weprovide{
+        font-size: 23px;
+        font-family: 'Kavivanar', cursive;
+        font-family: 'Kalam', cursive;
+        font-weight: bold;
+    }
+
+    .donate{
+        display: flex;
+        justify-content: center;
+        color: red;
+        font-size: 23px;
+    }
+
+    .canfund{
+        font-size: 23px;
+        font-family: 'Kavivanar', cursive;
+        font-family: 'Kalam', cursive;
+        font-weight: bold;
+    }
+
+    .rec{
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+
+    .alwaysdo{
+        font-size: 23px;
+        display: flex;
+        justify-content: center;
+        color: red;
+    }
+   .program{
+    font-size: 23px;
+    font-family: 'Kavivanar', cursive;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+   }
+    
+.apply1{
+    display: flex;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-image: url(../bulb.jpg);
+}
+.apply1:hover{
+  
+    font-weight: bolder;
+    color: red;
+}
+.apply{
+    margin: -17px 0px 14px 913px;
+      width: 254px;
+    height: 55px;
+       font-size: 32px;
+       cursor: pointer;
+       color: #2874f0;
+       text-transform: capitalize;
+
+}
+
+.apply a{
+    text-decoration: none;
+    color:#2874f0;
+   
+}
+
+.apply:hover{
+    color: red;
+    background-color: aliceblue;
+
+}
+.white1{
+    background-image: url(../white1.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+footer{
+    height: 7vh;
+
+    background-color: #2874f0;
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+ 
+ 
+}
+
+.lastmei {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.lastmei:hover {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
+
